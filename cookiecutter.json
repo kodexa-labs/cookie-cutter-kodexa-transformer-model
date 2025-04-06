@@ -1,0 +1,22 @@
+{
+  "project_name": "My Kodexa Transformer Model",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+  "pkg_name": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_short_description": "Skeleton project created by Cookiecutter Kodexa Transformer Model",
+  "full_name": "Kodexa Support",
+  "email": "support@kodexa.com",
+  "github_username": "kodexa-ai",
+  "version": "0.1.0",
+  "org_slug": "my-org",
+  "__prompts__": {
+    "project_name": "The name of the project for your transformer model",
+    "project_slug": "The slug for your transformer model",
+    "pkg_name": "The package name for your transformer model",
+    "project_short_description": "Short description",
+    "github_username": "GitHub username or organization",
+    "full_name": "Author full name",
+    "email": "Author email",
+    "version": "The version for your transformer model",
+    "org_slug": "The Kodexa organization slug you will host your transformer model in"
+  }
+}
