@@ -22,3 +22,7 @@ deploy:
 
 undeploy:
 	poetry run kodexa undeploy model.yml
+
+generate-data-classes:
+	poetry run kodexa get taxonom {{ cookiecutter.taxonomy_ref }} --output-file taxonomy.json
+	poetry run kodexa dataclasses taxonomy.json --output-path {{ cookiecutter.pkg_name }} --output-file data_classes.py

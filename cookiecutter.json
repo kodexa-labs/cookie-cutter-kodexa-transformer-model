@@ -8,6 +8,7 @@
   "github_username": "kodexa-ai",
   "version": "0.1.0",
   "org_slug": "my-org",
+  "taxonomy_ref": "",
   "__prompts__": {
     "project_name": "The name of the project for your transformer model",
     "project_slug": "The slug for your transformer model",
@@ -17,6 +18,7 @@
     "full_name": "Author full name",
     "email": "Author email",
     "version": "The version for your transformer model",
-    "org_slug": "The Kodexa organization slug you will host your transformer model in"
+    "org_slug": "The Kodexa organization slug you will host your transformer model in",
+    "taxonomy_ref": "The taxonomy reference for your transformer model (this is the data definition that the data will be extracted to that you will use in your transformer)"
   }
 }
