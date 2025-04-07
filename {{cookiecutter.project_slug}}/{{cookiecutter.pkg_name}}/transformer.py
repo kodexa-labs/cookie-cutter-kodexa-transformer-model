@@ -1,6 +1,6 @@
 """Transformer module."""
 
-from kodexa import Document, Content
+from kodexa import Document
 import logging
 import importlib
 from typing import List
@@ -13,7 +13,7 @@ class Transformer:
     A Kodexa transformer that processes documents and transforms their content.
     """
 
-    def process_document(document: Document, assistant):
+    def process_document(self, document: Document, assistant):
         external_data = document.get_external_data()
         try:
             # Clean up the labels/tags
@@ -62,4 +62,4 @@ class Transformer:
             logger.error(error_message)
             document.add_exception(ContentException("Processing Error", error_message))
 
-        return
+        return document
