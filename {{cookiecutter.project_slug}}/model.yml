@@ -7,7 +7,7 @@ name: {{cookiecutter.project_name}}
 description: {{cookiecutter.project_short_description}}
 metadata:
   inferable: true
-  type: transformer
+  type: model
   provider: {{ cookiecutter.github_username }}
   providerUrl: https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}
   modelRuntimeRef: kodexa/base-model-runtime
